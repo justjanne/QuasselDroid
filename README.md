@@ -5,7 +5,7 @@ Quassel is a distributed, decentralized IRC client, written using C++ and Qt.
 QuasselDroid is a pure-java client for the Quassel core, allowing you to
 connect to your Quassel core using your Android (TM) phone.
 
-[![Screenshot of the main chat window](http://i.imgur.com/gIoPhbG.png)](http://imgur.com/a/bYHz6 "Click to see more screenshots of QuasselDroid")
+[![Screenshot of the main chat window](http://i.imgur.com/gIoPhbGl.png)](http://imgur.com/a/bYHz6 "Click to see more screenshots of QuasselDroid")
 
 Build Requirements
 ------------------
@@ -17,8 +17,12 @@ It requires a recent Android SDK , and the new build system.
 It uses the following extra projects (though all support libraries are included
 for your convenience):
 
- - Otto: http://square.github.com/otto/
- - Android Support Library: http://developer.android.com/tools/extras/support-library.html  
+ - Otto (Apache): http://square.github.com/otto/
+ - MaterialTabs (Apache): https://github.com/neokree/MaterialTabs
+ - FloatingActionButton (MIT): https://github.com/makovkastar/FloatingActionButton
+ - Guava (Apache): https://github.com/google/guava
+ - ACRA (Apache): https://github.com/ACRA/acra
+ - Android Support Library (Apache): http://developer.android.com/tools/extras/support-library.html  
    **Android Support Library requires the corresponding package to be installed in the SDK manager**
 
 Building
